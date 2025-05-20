@@ -1,0 +1,33 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import GlassHeader from "@/components/GlassHeader";
+import HeroSection from "@/components/HeroSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import EducationSection from "@/components/EducationSection";
+import AwardsSection from "@/components/AwardsSection";
+import ArtSection from "@/components/ArtSection";
+import Footer from "@/components/Footer";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<div style="position:fixed;top:0;left:0;width:100vw;z-index:9999;pointer-events:none;">
+  <div style="pointer-events:auto;">
+    <GlassHeader client:only="react" />
+  </div>
+</div>
+<Layout>
+  <main class="min-h-screen pt-[var(--header-height,4rem)]">
+    <HeroSection client:only="react" />
+    <ExperienceSection client:only="react" />
+    <EducationSection client:only="react" />
+    <AwardsSection client:only="react" />
+    <ArtSection client:only="react" />
+  </main>
+</Layout>
+<div style="position:fixed;left:0;bottom:0;width:100vw;z-index:9999;pointer-events:none;">
+  <div style="pointer-events:auto;">
+    <Footer client:only="react" />
+  </div>
+</div>
