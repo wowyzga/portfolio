@@ -1,4 +1,3 @@
-
 import { personalInfo } from "@/lib/data";
 import { workExperience } from "@/lib/data";
 import { Mail, MapPin, Linkedin } from "lucide-react";
@@ -89,6 +88,17 @@ export default function HeroSection() {
               >
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
+              </motion.a>
+
+              <motion.a
+                href="/AnetaWyzgaResume.pdf"
+                download
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors mt-1"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: '#4b5563' }}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" /></svg>
+                📄 Download Resume
               </motion.a>
             </motion.div>
           </div>

@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -53,7 +52,7 @@ export default function TimelineItem({
           />
         )}
       </div>
-      <div className={cn("pb-8", isLast ? "pb-0" : "")}>
+      <div className={cn("pb-8 w-full", isLast ? "pb-0 w-full" : "")}>
         <motion.div
           className="flex flex-col gap-0.5"
           initial={{ opacity: 0, x: -20 }}
@@ -70,10 +69,12 @@ export default function TimelineItem({
                   style={{ objectFit: "cover" }}
               />
             </div>
-            <h3 className="font-medium">{title}</h3>
+            <h3 className="font-medium mr-2">{title}</h3>
           </div>
-          <p className="text-sm text-muted-foreground">{subtitle}</p>
-          <p className="text-xs text-muted-foreground/70 mb-2">{date}</p>
+          <div className="flex items-center justify-between w-full mb-2">
+            <p className="text-sm text-muted-foreground">{subtitle}</p>
+            <p className="text-xs text-muted-foreground/70">{date}</p>
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

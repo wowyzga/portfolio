@@ -22,10 +22,10 @@ const projectImages = [
 
 export default function ArtSection() {
   return (
-    <section id={headerValues[3].name} className="py-12 relative">
+    <section id={headerValues[4].name} className="py-12 relative scroll-mt-[5rem]">
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-            <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
+            <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center">
             <motion.span
                 className="inline-block mr-2"
                 initial={{ rotate: 0 }}
@@ -33,9 +33,9 @@ export default function ArtSection() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true }}
             >
-            {headerValues[3].icon}
+            {headerValues[4].icon}
             </motion.span>{" "}
-            {headerValues[3].title}
+            {headerValues[4].title}
             </h2>
         </MotionWrapper>
 

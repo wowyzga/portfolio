@@ -4,8 +4,9 @@ export const personalInfo = {
   email: "wyzgaaneta@gmail.com",
   linkedin: "https://www.linkedin.com/in/aneta-wyzga/",
   image: "https://media.licdn.com/dms/image/v2/C5603AQH6XBY-XsOufA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1642474718825?e=1753315200&v=beta&t=4T_boZjBvLybyOn3QKXHZP9t1XGU8R3EQawuiRJ9SGw",
-  about: "UC San Diego graduate and former Divison-1 Scholar-Athlete with a Bachelor of Science degree in Human Biology from the University of California, San Diego. Skilled in Scientific Analytical Skills, Attention to Detail & Precision, Teamwork, and Preparedness."
+  about: "Aspiring dental student with a B.S. in Human Biology from UC San Diego and hands-on experience as an orthodontic assistant. Demonstrated commitment to community service, teamwork, and scientific research. Former Division I NCAA scholar-athlete with strong time management, communication, and perseverance. Passionate about patient care, oral health education, and contributing to the community outside of dentistry. Skilled in Scientific Analytical Skills, Attention to Detail & Precision, Teamwork, and Preparedness."
 };
+
 
 export const headerValues = [
   {
@@ -24,6 +25,11 @@ export const headerValues = [
     title: "Licenses & certifications",
   },
   {
+    name: "Volunteer",
+    icon: "🙋 ",
+    title: "Volunteer Work",
+  },
+  {
     name: "Art Portfolio",
     icon: "🎨 ",
     title: "Art Portfolio",
@@ -38,10 +44,22 @@ export const workExperience = [
     period: "Sep 2023 - Present",
     image: "https://media.istockphoto.com/id/1328419816/vector/healthy-teeth-with-abstract-swoosh-inside.jpg?s=612x612&w=0&k=20&c=l8V2u55RcYgxbqpltIZq54bY0MV6iUqYbW3hI6SNmx0=",
     achievements: [
-      "Dental Assisting: Assisted orthodontist in various procedures, including patient examinations, X-rays, and treatment planning.",
-      "Chairside Assisting: Provided chairside support during orthodontic procedures, ensuring patient comfort and safety.",
-      "Oral Care: Educated patients on oral hygiene practices and post-treatment care.",
-      "Team Leadership: Led a team of dental assistants, coordinating schedules and ensuring efficient workflow.",
+      {
+        header: "Certified Dental Assistant",
+        details: "supporting orthodontic procedures with a focus on patient comfort and efficiency.",
+      },
+      {
+        header: "Patient Care",
+        details: "prepared patient treatments, ensuring smooth transitions between appointments.",
+      },
+      {
+        header: "Patient Records",
+        details: "maintained accurate and up-to-date patient records, documenting treatment plans and outcomes.",
+      },
+      {
+        header: "Hygiene and Safety",
+        details: "sterilized instruments and upheld high standards of hygiene and safety.",
+      },
     ],
   },
   {
@@ -51,12 +69,30 @@ export const workExperience = [
     period: "Oct 2022 - Jul 2023",
     image: "https://media.licdn.com/dms/image/v2/C4E0BAQF6oNt0itdzyw/company-logo_200_200/company-logo_200_200/0/1630619393285/sanfordburnhamprebys_logo?e=1753315200&v=beta&t=ZO83oG56Vz12wf3zpAyGSMJWGO67t5ElGl8ljmMmS58",
     achievements: [
-      "Part of Conrad Prebys Center for Chemical Genomics, Protein Production and Analysis team.  Prepare cell samples weekly through culture inoculation, induction, and harvesting.  Attention to detail while following written procedures and working with cells that grow at different temperatures and need different antibiotics.  Precision skills while pipetting small amounts and while working at an open flame.  Organizational skills while using different chemical ingredients, keeping the lab space safe and clean.  Prepare samples by making sure glassware is clean and ready for use.",
-      "High Level Of Accuracy: Maintained a high level of accuracy in laboratory procedures, ensuring reliable results.",
-      "Organization Skills: Demonstrated strong organizational skills by managing laboratory supplies and equipment.",
-      "Preparation: Assisted in the preparation of samples and reagents for experiments.",
-      "Pipetting: Performed pipetting and other laboratory techniques with precision.",
-      "Laboratory Skills: Gained hands-on experience in various laboratory techniques, including pipetting, sample preparation, and data entry.",
+      {
+        header: "Work Experience",
+        details: "part of Conrad Prebys Center for Chemical Genomics, Protein Production and Analysis team.  Prepare cell samples weekly through culture inoculation, induction, and harvesting.  Attention to detail while following written procedures and working with cells that grow at different temperatures and need different antibiotics.  Precision skills while pipetting small amounts and while working at an open flame.  Organizational skills while using different chemical ingredients, keeping the lab space safe and clean.  Prepare samples by making sure glassware is clean and ready for use.",
+      },
+      {
+        header: "High Level Of Accuracy",
+        details: "maintained a high level of accuracy in laboratory procedures, ensuring reliable results.",
+      },
+      {
+        header: "Organization Skills",
+        details: "demonstrated strong organizational skills by managing laboratory supplies and equipment.",
+      },
+      {
+        header: "Preparation",
+        details: "assisted in the preparation of samples and reagents for experiments.",
+      },
+      {
+        header: "Pipetting",
+        details: "performed pipetting and other laboratory techniques with precision.",
+      },
+      {
+        header: "Laboratory Skills",
+        details: "gained hands-on experience in various laboratory techniques, including pipetting, sample preparation, and data entry.",
+      },
     ],
   },
   {
@@ -66,11 +102,26 @@ export const workExperience = [
     period: "Sep 2019 - Jun 2023",
     image: "https://media.licdn.com/dms/image/v2/C4D0BAQF-EJXdir2DpQ/company-logo_200_200/company-logo_200_200/0/1644509587514/ncaa_logo?e=1753315200&v=beta&t=wlhIYBl8gya2dRMrAOZySwGWjEI5mjdTyvLIle1N1Uo",
     achievements: [
-      "Member of UCSD's Division 1 Women's Swim Team. Dedicate 20+ hours a week to the sport while managing college level labs and courses. Communicate with and develop relationships with fellow athletes and coaching staff. Support my team members at practices and sporting events.  Maintain professionalism while competing at sporting events.",
-      "Communication: Developed strong communication skills through interactions with coaches, teammates, and medical staff.",
-      "Teamwork: Collaborated with a diverse group of individuals, fostering a sense of camaraderie and teamwork.",
-      "Relationship Building: Built strong relationships with coaches, teammates, and medical staff, enhancing teamwork and collaboration.",
-      "Time Management: Balanced academic and athletic commitments, demonstrating effective time management skills.",
+      {
+        header: "Team Membership",
+        details: "member of UCSD's Division 1 Women's Swim Team. Dedicate 20+ hours a week to the sport while managing college level labs and courses. Communicate with and develop relationships with fellow athletes and coaching staff. Support my team members at practices and sporting events.  Maintain professionalism while competing at sporting events.",
+      },
+      {
+        header: "Communication",
+        details: "developed strong communication skills through interactions with coaches, teammates, and medical staff.",
+      },
+      {
+        header: "Teamwork",
+        details: "collaborated with a diverse group of individuals, fostering a sense of camaraderie and teamwork.",
+      },
+      {
+        header: "Relationship Building",
+        details: "built strong relationships with coaches, teammates, and medical staff, enhancing teamwork and collaboration.",
+      },
+      {
+        header: "Time Management",
+        details: "balanced academic and athletic commitments, demonstrating effective time management skills.",
+      },
     ],
   },
   {
@@ -80,10 +131,55 @@ export const workExperience = [
     period: "Jun 2021 - Oct 2021",
     image: "https://media.licdn.com/dms/image/v2/C560BAQG0KPD5HDkJPg/company-logo_200_200/company-logo_200_200/0/1630565266907/university_of_california_san_diego_recreation_logo?e=1753315200&v=beta&t=xXLesGliQkCtMtojExWfO9i7lONULR2c2FwyaTrV1rA",
     achievements: [
-      "Certified lifeguard by the American Red Cross, CPR and First Aid certified. Highly skilled swimmer and excellent communicator, experienced in maintaining safety at the facility.",
-      "Water Safety: Ensured the safety of all patrons in and around the pool area, responding quickly to emergencies.",
-      "Alert: Maintained a high level of alertness and vigilance while on duty, ensuring the safety of all patrons.",
-      "Attention to Detail: Demonstrated strong attention to detail in monitoring pool activities and identifying potential hazards.",
+      {
+        header: "Certification",
+        details: "certified lifeguard by the American Red Cross, CPR and First Aid certified. Highly skilled swimmer and excellent communicator, experienced in maintaining safety at the facility.",
+      },
+      {
+        header: "Water Safety",
+        details: "ensured the safety of all patrons in and around the pool area, responding quickly to emergencies.",
+      },
+      {
+        header: "Alertness",
+        details: "maintained a high level of alertness and vigilance while on duty, ensuring the safety of all patrons.",
+      },
+      {
+        header: "Attention to Detail",
+        details: "demonstrated strong attention to detail in monitoring pool activities and identifying potential hazards.",
+      },
+    ],
+  },
+];
+
+export const volunteerWork = [
+  {
+    organization: "King County Library Systems",
+    location: "King County, WA",
+    position: "📖 Reading Buddy",
+    period: "Aug 2024 - Present",
+    details: [
+      "Paired with young readers to encourage literacy and foster a love of books.",
+      "Maintained a positive learning environment.",
+    ],
+  },
+  {
+    organization: "Bellevue Art Museum",
+    location: "Bellevue, WA",
+    position: "🎟️ Events Volunteer",
+    period: "Aug 2024 - Present",
+    details: [
+      "Assisted during youth art workshops and museum events.",
+      "Helped keep exhibit spaces clean and interacted with museum guests to enhance their experience.",
+      "Encouraged community involvement in the arts and creative expression.",
+    ],
+  },
+  {
+    organization: "Friends of Issaquah Salmon Hatchery",
+    location: "Issaquah, WA",
+    position: "🛠️ Habitat Maintenance and Stewardship ",
+    period: "Aug 2024 - Present",
+    details: [
+      "Helped with hatchery maintenance tasks to support fish habitat preservation and maintain safety for guests.",
     ],
   },
 ];

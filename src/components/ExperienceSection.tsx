@@ -1,4 +1,3 @@
-
 import { workExperience } from "@/lib/data";
 import { headerValues } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
@@ -10,11 +9,11 @@ export default function ExperienceSection() {
   return (
     <section
       id={headerValues[0].name}
-      className="py-12 bg-gradient-to-b from-muted/20 to-background"
+      className="py-12 bg-gradient-to-b from-muted/20 to-background scroll-mt-[5rem]"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center">
             <motion.span
               className="inline-block mr-2"
               initial={{ rotate: 0 }}
@@ -22,8 +21,8 @@ export default function ExperienceSection() {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-            {headerValues[0].icon}
-            </motion.span>{" "}
+              {headerValues[0].icon}
+            </motion.span>
             {headerValues[0].title}
           </h2>
         </MotionWrapper>
@@ -61,7 +60,11 @@ export default function ExperienceSection() {
                       transition={{ duration: 0.3, delay: 0.1 * i }}
                       viewport={{ once: true }}
                     >
-                      {achievement}
+                      <span className="font-semibold text-purple-600 dark:text-purple-400">
+                        {achievement.header}
+                      </span>
+                      {": "}
+                      <span>{achievement.details}</span>
                     </motion.li>
                   ))}
                 </ul>

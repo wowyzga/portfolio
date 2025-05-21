@@ -10,22 +10,22 @@ export default function AwardsSection() {
   return (
     <section
       id={headerValues[2].name}
-      className="py-12 bg-gradient-to-b from-background to-muted/10"
+      className="py-12 bg-gradient-to-b from-background to-muted/10 scroll-mt-[5rem]"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-            <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center">
             <motion.span
-                className="inline-block mr-2"
-                initial={{ rotate: 0 }}
-                whileInView={{ rotate: [0, -10, 10, -5, 5, 0] }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                viewport={{ once: true }}
+              className="inline-block mr-2"
+              initial={{ rotate: 0 }}
+              whileInView={{ rotate: [0, -10, 10, -5, 5, 0] }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
             >
-            {headerValues[2].icon}
-            </motion.span>{" "}
+              {headerValues[2].icon}
+            </motion.span>
             {headerValues[2].title}
-            </h2>
+          </h2>
         </MotionWrapper>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -58,12 +58,14 @@ export default function AwardsSection() {
                     <span className="text-xs text-muted-foreground bg-background/50 px-2 py-1 rounded-md">
                       📅 {award.date}
                     </span>
-                    <motion.span
-                      className="text-xs px-2 py-1 bg-purple-500/10 rounded-full"
-                      whileHover={{ scale: 1.05 }}
-                    >
-                      {award.position}
-                    </motion.span>
+                    {award.position && award.position.trim() !== "" && (
+                      <motion.span
+                        className="text-xs px-2 py-1 bg-purple-500/10 rounded-full"
+                        whileHover={{ scale: 1.05 }}
+                      >
+                        {award.position}
+                      </motion.span>
+                    )}
                   </div>
                   <motion.span
                     className="text-xs text-muted-foreground/80 bg-background/50 px-2 py-1 rounded-md w-fit"
