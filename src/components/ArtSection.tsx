@@ -16,6 +16,7 @@ import ImageGallery from "./ImageGallery";
 
 const projectImages = [
     Object.values(import.meta.glob("../images/cards/*", { eager: true })),
+    Object.values(import.meta.glob("../images/collages/*", { eager: true })),
     Object.values(import.meta.glob("../images/crochet/*", { eager: true })),
 ]
 

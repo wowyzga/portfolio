@@ -131,6 +131,13 @@ export const projects = [
     ],
   },
   {
+    title: "Collages",
+    icon: "🖌 ",
+    description: [
+      "Collage projects",
+    ],
+  },
+  {
     title: "Crochet",
     icon: "🧶 ",
     description: [
