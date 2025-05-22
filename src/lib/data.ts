@@ -193,6 +193,7 @@ export const education = [
     image: "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1753315200&v=beta&t=a0DwGWHBZjTnmhHf3Fg4qJwmXdeR9O9GPRptMiyoTWs",
     achievements: [
       "UC San Diego Swim and Dive",
+      "NCAA Division I Scholar-Athlete",
     ],
   },
   {
@@ -203,6 +204,7 @@ export const education = [
     image: "https://media.licdn.com/dms/image/v2/C4E0BAQFYl_QlwkD2AA/company-logo_200_200/company-logo_200_200/0/1630582215348?e=1753315200&v=beta&t=lmab5egZOo2w2T0JLGMFo3VaZJmFhJIzWsYbyCcT_6Q",
     achievements: [
       "Bellevue High School Swim and Dive",
+      "Team Captain 2018-2019",
     ],
   },
 ];
@@ -215,6 +217,14 @@ export const awards = [
     type: "International",
     position: "",
     image: "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_200_200/company-logo_200_200/0/1656603670184/american_red_cross_logo?e=1753315200&v=beta&t=kefq0Rz7on9K3l8pZp4ScTSDpgNdn1bxiiBkm4KLLGo"
+  },
+  {
+    name: "Registered Dental Assistant",
+    issuer: "Washington State Department of Health",
+    date: "Dec 2024",
+    type: "Local",
+    position: "",
+    image: "https://content.govdelivery.com/attachments/WADOH/2024/08/28/file_attachments/2981114/DOH%20logo_primary_122122.jpg"
   },
 ];
 
