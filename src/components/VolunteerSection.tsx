@@ -4,6 +4,9 @@ import { headerValues } from "@/lib/data";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 import { GlassCard } from "./ui/glass-card";
+import ImageGallery from "./ImageGallery";
+
+const images = Object.values(import.meta.glob("../images/volunteer/*", { eager: true }));
 
 function VolunteerTag({ volunteer, index }: { volunteer: any; index: number }) {
   return (
@@ -93,6 +96,16 @@ export default function VolunteerSection() {
                     </GlassCard>
                 </motion.div>
             ))}
+
+            {/* Volunteer Image Gallery */}
+            <motion.div variants={volunteerCategoryVariants}>
+                <GlassCard className="p-4">
+                    <div className="flex justify-between items-center mb-1 w-full">
+                        <h3 className="text-lg font-medium text-left">🖼 Gallery</h3>
+                    </div>
+                    <ImageGallery images={images.map((file: any) => file.default.src)} />
+                </GlassCard>
+            </motion.div>
         </motion.div>
       </div>
     </section>

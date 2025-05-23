@@ -244,10 +244,31 @@ export const projects = [
     ],
   },
   {
-    title: "Crochet",
+    title: "Crochet/Knitting",
     icon: "🧶 ",
     description: [
-      "Crochet projects",
+      "Crochet and knitting projects",
     ],
   },
 ];
+
+export const imageDescriptions: Record<string, string> = {
+  "Mama Birthday Card-1.png": "Birthday Card for my Mom, with a birthday cake and zebra candle.",
+  "Mothers Day Card 2-1.png": "Mother's Day card with hand-drawn tulips, expressing gratitude and love for grandma.",
+  "Skyler Christmas Card-1.png": "Festive Christmas Card for Skyler, the cut out pieces are from Trader Joes catalogs.",
+  "Tata Birthday-1.png": "Birthday Card for my Dad.",
+  "Alana Collage-1.png": "Locker-sign collage for Alana, featuring elements of swim and Hawaiian themes - representing where she grew up.",
+  "Jones Soda Collage-1.png": "Collage inspired by phrases inside the bottle caps of Jones sodas. Made for an art class during my time at UCSD.",
+  "Juli Collage-1.png": "Poster collage for Juli. Features sunset , the beach, and a surfboard to represent San Diego - the city where she grew up. Pink themes and frilly dress due to her love of the color pink and fashion.",
+  "Maja Collage Card-1.png": "Collage Birthday card for Maja - my cousin, sent to her in Poland. Features a cat and peaceful outdoors due to her interests..",
+  "Minh-Nha Collage-1.png": "Locker-sign collage poster for Mihn-Nha featuring some of her favorite things, cows, whales, and the outdoors. Displayed on her locker at UCSD",
+  "Miranda Card-1.png": "Collage birthday card for Miranda made in 2020 during COVID.",
+  "Miranda Christmas Card-1.png": "Collage Christmas card for Miranda, the tree is made out of green Prada shoes and jewelry due to her love of fashion.",
+  "Miranda Collage 2-1.png": "Poster collage for Miranda, featuring a sunset in the Philippines, her country of nationality.",
+  "Miranda Collage-1.png": "Poster collage for Miranda, featuring Paris, the city where she grew up.",
+  "Oliposter-1.png": "Poster collage for my sister Oli before she left for college at UW.",
+  "Sky Poster-1.png": "Poster collage for Sky capturing moments from our road trip along the pacific coast from San Diego to Seattle.",
+  "Knit-purl-and-stockinette-stich.jpeg": "Knitting project featuring knit, purl, and stockinette stitches. Made while learning the basics of knitting.",
+  "Filet Crochet Flower.pdf": "Filet crochet flower pattern. Made my own pattern while learning the basics of filet crochet.",
+  "Filet-crochet-J-1.png": "Filet crochet letter J project for Juli.",
+};
